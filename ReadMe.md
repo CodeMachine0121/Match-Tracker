@@ -39,7 +39,7 @@ This project contains git submodules for the frontend and backend components. Cl
 
 ```bash
 # Clone the main repository with all submodules
-git clone --recursive https://github.com/your-username/esports-match-tracker.git
+git clone --recursive https://github.com/codemachine0121/esports-match-tracker.git
 
 # Or if you already cloned without --recursive, initialize submodules:
 git submodule update --init --recursive
