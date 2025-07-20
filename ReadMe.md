@@ -52,6 +52,7 @@ Run the script `start_project.sh`
 - docker image build
 - docker-compose up
 - dotnet database migration
+- insert mock data
 
 This will start:
 
