@@ -1,4 +1,9 @@
 #!/bin/bash
+cd backend
+docker build -t esports-match-tracker-backend .
+cd ../frontend
+docker build -t esports-match-tracker-frontend .
+cd ..
 docker-compose up -d
 docker-compose exec backend dotnet ef database update --project /src/ESportsMatchTracker.API
 
